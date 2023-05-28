@@ -1,0 +1,50 @@
+name: portfolio
+description: Portfolio of Ruslan Khuako
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  url_launcher: ^6.1.10
+  flutter_svg: ^1.1.6
+  animated_flip_counter: ^0.2.5
+  visibility_detector: ^0.4.0+2
+  auto_size_text: ^3.0.0
+  intl_utils: ^2.7.0
+  intl: ^0.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/fonts/
+    - assets/images/
+
+  fonts:
+    - family: SF-Pro-Rounded
+      fonts:
+        - asset: assets/fonts/SF-Pro-Rounded-Medium.otf
+        - asset: assets/fonts/SF-Pro-Rounded-Heavy.otf
+        - asset: assets/fonts/SF-Pro-Rounded-Ultralight.otf
+        - asset: assets/fonts/SF-Pro-Rounded-Light.otf
+
+flutter_intl:
+  enabled: true
+  main_locale: en
+  arb_dir: assets/l10n
