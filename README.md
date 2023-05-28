@@ -1,4 +1,4 @@
-# portfolio
+# Portfolio
 
 This is a portfolio project of Ruslan Khuako
 
